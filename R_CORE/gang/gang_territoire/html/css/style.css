@@ -1,0 +1,75 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    overflow: hidden;
+    cursor: default;
+}
+
+
+
+#map-container {
+    width: 30%;
+    height: 61%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+    top: 22%;
+    left: 35%;
+    background-color: rgb(15,168,210);
+}
+
+#map-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#map-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.9); /* Adjust initial zoom level */
+    object-fit: contain;
+    transform-origin: center center; /* Keep transform origin at center */
+    width: 100%;
+    height: 100%;
+}
+
+#zones-canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.9);
+    width: 175%;
+    height: 88%;
+    pointer-events: none;
+    z-index: 10;
+}
+
+#close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 20; /* Ensure button is above everything */
+}
+
+#tablet-image {
+    position: relative;
+    top: 2%;
+    width: 90%;
+    height: 100%;
+    left: 5%;
+}

@@ -1,0 +1,8 @@
+	['contract'] = {
+		label = 'contract',
+		weight = 10,
+		stack = false,
+		close = true, -- Close the inventory when the item is used
+		consume = 0, -- The item won't be consumed automatically
+		description = 'Use this contract to rent your vehicle to another player for a specified duration.',
+	},
