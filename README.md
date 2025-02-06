@@ -1,4 +1,4 @@
-# GTA-SCRIPT
+# AltaWL-Scripts
 
 Ce projet contient une collection de scripts pour **FiveM**, une modification de GTA V permettant de créer des serveurs personnalisés.
 
